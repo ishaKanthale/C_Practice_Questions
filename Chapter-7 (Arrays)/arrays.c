@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main(){
+	/*
+	int marks1 = 97;
+	int marks2 = 98;
+	int marks3 = 89;
+
+	int markd[] = {97, 98, 89};
+	*/
+
+	int marks[3];
+	printf("Enter phy:");
+	scanf("%d", &marks[0]);
+
+	printf("Enter chem:");
+	scanf("%d", &marks[1]);
+
+	printf("Enter math:");
+	scanf("%d", &marks[2]);
+	
+	printf("phy = %d, chem = %d and math = %d", marks[0], marks[1], marks[2]);
+
+	return 0;
+}
